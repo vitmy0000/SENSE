@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
-project (SELECT_TRAIN)
+project (SELECT_TRAINING_DATA)
 set(CMAKE_CXX_FLAGS "-std=c++14")
 set(CMAKE_CXX_COMPILTER "clang++")
 add_subdirectory(src)
