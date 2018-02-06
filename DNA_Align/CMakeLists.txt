@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.7)
+project (DNA_ALIGN)
+set(CMAKE_CXX_FLAGS "-std=c++14")
+set(CMAKE_CXX_COMPILTER "clang++")
+add_subdirectory(src)
