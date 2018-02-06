@@ -1,2 +1,5 @@
 .DS_Store
 build/
+demo/*
+!demo/seqs.fa
+.ipynb_checkpoints/*
