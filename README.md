@@ -1,9 +1,6 @@
 # SENSE
 Siamese neural network for sequence embedding
 
-
-## Code Organization
-
 ## Code Organization
 
 This repo constains three major components:
