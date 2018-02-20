@@ -60,7 +60,7 @@ python tools/pair.py -i demo/eval.fa -o demo/eval_pair.fa
 python tools/dist.py -i demo/eval_aligned.fa -o demo/eval_dist.txt
 ```
 
-In this demo, we prepare 20 * 50 training sequence paris and shuffle them.
+In this demo, we prepare 20 * 500 training sequence paris and shuffle them.
 To select training data:
 ```bash
 ./select_training_data/build/src/select_training_data -f demo/seqs.fa -s demo/seqs_ids.txt -p demo/pair.fa -d demo/dist.txt -a 1 -t 20 -n 500
